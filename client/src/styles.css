@@ -1,0 +1,29 @@
+.list-group-item {
+    border: none;
+}
+.table-header {
+    text-align: center;
+}
+.table-data {
+    text-align: center;
+}
+.form-check-input {
+    margin-left: 2px;
+}
+.toolbar {
+    margin-bottom: 5px;
+}
+.core-section-text {
+    text-align: center;
+}
+.cursor-none {
+    cursor: default;
+}
+.blocked {
+    background-color: #990033;
+    color: white;
+}
+.spinner-border {
+    height: 5rem;
+    width: 5rem;
+}

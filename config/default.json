@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "jwtSecret": "intra",
+  "mongoUri": "mongodb+srv://Alex:qwerty1@cluster0.afgi8.mongodb.net/MERN?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
+}

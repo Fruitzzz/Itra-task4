@@ -1,0 +1,34 @@
+{
+  "name": "itra-task4",
+  "version": "1.0.0",
+  "description": "task4",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm run install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "server": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "dev": "cross-env NODE_ENV=development concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Fruitzz <aleksey.danilchenko8@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "config": "^3.3.3",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.7"
+  }
+}
